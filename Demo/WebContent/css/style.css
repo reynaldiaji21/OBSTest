@@ -1,0 +1,44 @@
+label.error{
+	color:red;
+	margin-left: 5px;
+}
+
+.loginTable{ 
+	 border:1px solid black; 
+	 border-width: 1px 1px 1px 1px;
+     padding: 30px;
+   
+}
+.pageTable{
+	border-spacing: 0px;
+   
+}
+.pageTable thead th{
+	 background: #0080ff; 
+    border:1px solid black; 
+    color:white; 
+    
+}
+.pageTable tbody td{
+	border:1px solid black; 
+}
+
+
+.popup-overlay {
+visibility:hidden;
+}
+
+.popup-content {
+visibility:hidden;
+}
+.popup-overlay.active{
+visibility:visible;
+}
+
+.popup-content.active {
+visibility:visible;
+}
+
+#invalidLogin{
+	color:red;
+}
